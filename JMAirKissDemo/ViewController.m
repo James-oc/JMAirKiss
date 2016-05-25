@@ -43,13 +43,13 @@
     // Dispose of any resources that can be recreated.
 }
 
--(void)viewWillAppear:(BOOL)animated {
+- (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     [self getSSID];
 }
 
 #pragma mark - UI
--(void) setupViews {
+- (void)setupViews {
     self.title = @"AirKiss";
     
     self.connectionBtn.layer.cornerRadius = 5;
@@ -59,7 +59,7 @@
 }
 
 #pragma mark - Datas
--(void) getSSID {
+- (void)getSSID {
     _ssidStr = [JMAirKissShareTools fetchSSIDInfo][@"SSID"];
     if (_ssidStr == nil || [_ssidStr isEqualToString:@""]) {
         _pswView.hidden       = YES;
@@ -76,12 +76,18 @@
 - (IBAction)connectAction:(id)sender {
     _pswStr = _pswTextField.text;
     if (_pswStr == nil || _pswStr.length == 0) {
-        [HUDTools showText:@"请输入WiFi密码" withView:self.view withDelay:2];
+        [HUDTools showText:@"请输入WiFi密码"
+                    onView:self.view
+                     delay:2
+                completion:^{
+                      
+                  }];
         return;
     }
     
     [_pswTextField resignFirstResponder];
-    [HUDTools showHUDWithLabel:@"连接中..." withView:self.view];
+    [HUDTools showHUDWithLabel:@"连接中..."
+                        onView:self.view];
     
     if (!_airKissConnection) {
         _airKissConnection = [[JMAirKissConnection alloc] init];
@@ -108,7 +114,8 @@
         };
     }
    
-    [_airKissConnection connectAirKissWithSSID:_ssidStr withPSW:_pswStr];
+    [_airKissConnection connectAirKissWithSSID:_ssidStr
+                                       withPSW:_pswStr];
 }
 
 @end

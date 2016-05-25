@@ -22,6 +22,7 @@ typedef void (^AirKissConnectionFailure) (void);
  *  @param ssidStr ssid
  *  @param pswStr  psw
  */
-- (void)connectAirKissWithSSID:(NSString *) ssidStr withPSW:(NSString *) pswStr;
+- (void)connectAirKissWithSSID:(NSString *)ssidStr
+                       withPSW:(NSString *)pswStr;
 
 @end
