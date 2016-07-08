@@ -17,4 +17,6 @@ FOUNDATION_EXPORT const unsigned char JMAirKissVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <JMAirKiss/PublicHeader.h>
 
 #import "JMAirKissConnection.h"
+
 #import "GCDAsyncUdpSocket.h"
+#import "GCDAsyncSocket.h"

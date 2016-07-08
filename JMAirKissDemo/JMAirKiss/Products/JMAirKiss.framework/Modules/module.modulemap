@@ -1,0 +1,6 @@
+framework module JMAirKiss {
+  umbrella header "JMAirKiss.h"
+
+  export *
+  module * { export * }
+}

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A2115721D2F49E100463A7B /* JMAirKiss.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A2115711D2F499900463A7B /* JMAirKiss.framework */; };
 		1A98DB111C86E518003475B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A98DB101C86E518003475B4 /* main.m */; };
 		1A98DB141C86E518003475B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A98DB131C86E518003475B4 /* AppDelegate.m */; };
 		1A98DB171C86E518003475B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A98DB161C86E518003475B4 /* ViewController.m */; };
@@ -15,11 +16,21 @@
 		1A98DB1F1C86E518003475B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A98DB1D1C86E518003475B4 /* LaunchScreen.storyboard */; };
 		1A98DB531C86E7A8003475B4 /* HUDTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A98DB501C86E7A8003475B4 /* HUDTools.m */; };
 		1A98DB541C86E7A8003475B4 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A98DB521C86E7A8003475B4 /* MBProgressHUD.m */; };
-		1A98DB681C86F022003475B4 /* JMAirKiss.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A98DB671C86F022003475B4 /* JMAirKiss.framework */; };
 		1A98DB6D1C86F0A7003475B4 /* JMAirKissShareTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A98DB6C1C86F0A7003475B4 /* JMAirKissShareTools.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		1A2115701D2F499900463A7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A21156B1D2F499900463A7B /* JMAirKiss.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1A98DADE1C86DFB8003475B4;
+			remoteInfo = JMAirKiss;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		1A21156B1D2F499900463A7B /* JMAirKiss.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = JMAirKiss.xcodeproj; path = JMAirKiss/JMAirKiss.xcodeproj; sourceTree = SOURCE_ROOT; };
 		1A98DB0C1C86E518003475B4 /* JMAirKissDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JMAirKissDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A98DB101C86E518003475B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1A98DB121C86E518003475B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -34,7 +45,6 @@
 		1A98DB501C86E7A8003475B4 /* HUDTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUDTools.m; sourceTree = "<group>"; };
 		1A98DB511C86E7A8003475B4 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		1A98DB521C86E7A8003475B4 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
-		1A98DB671C86F022003475B4 /* JMAirKiss.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JMAirKiss.framework; sourceTree = "<group>"; };
 		1A98DB6B1C86F0A7003475B4 /* JMAirKissShareTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMAirKissShareTools.h; sourceTree = "<group>"; };
 		1A98DB6C1C86F0A7003475B4 /* JMAirKissShareTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMAirKissShareTools.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -44,13 +54,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A98DB681C86F022003475B4 /* JMAirKiss.framework in Frameworks */,
+				1A2115721D2F49E100463A7B /* JMAirKiss.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A2115461D2F498B00463A7B /* JMAirKiss */ = {
+			isa = PBXGroup;
+			children = (
+				1A21156B1D2F499900463A7B /* JMAirKiss.xcodeproj */,
+			);
+			path = JMAirKiss;
+			sourceTree = "<group>";
+		};
+		1A21156C1D2F499900463A7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A2115711D2F499900463A7B /* JMAirKiss.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		1A98DB031C86E518003475B4 = {
 			isa = PBXGroup;
 			children = (
@@ -70,7 +96,7 @@
 		1A98DB0E1C86E518003475B4 /* JMAirKissDemo */ = {
 			isa = PBXGroup;
 			children = (
-				1A98DB671C86F022003475B4 /* JMAirKiss.framework */,
+				1A2115461D2F498B00463A7B /* JMAirKiss */,
 				1A98DB6A1C86F0A7003475B4 /* Utils */,
 				1A98DB4E1C86E7A8003475B4 /* MBProgressHUD */,
 				1A98DB121C86E518003475B4 /* AppDelegate.h */,
@@ -159,12 +185,28 @@
 			mainGroup = 1A98DB031C86E518003475B4;
 			productRefGroup = 1A98DB0D1C86E518003475B4 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1A21156C1D2F499900463A7B /* Products */;
+					ProjectRef = 1A21156B1D2F499900463A7B /* JMAirKiss.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				1A98DB0B1C86E518003475B4 /* JMAirKissDemo */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		1A2115711D2F499900463A7B /* JMAirKiss.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = JMAirKiss.framework;
+			remoteRef = 1A2115701D2F499900463A7B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		1A98DB0A1C86E518003475B4 /* Resources */ = {
@@ -305,6 +347,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/JMAirKissDemo",
+					"$(PROJECT_DIR)/JMAirKissDemo/JMAirKiss/Products",
+					"$(PROJECT_DIR)/JMAirKiss/JMAirKiss/",
 				);
 				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/JMAirKiss/JMAirKiss/";
 				INFOPLIST_FILE = JMAirKissDemo/Info.plist;
@@ -323,6 +367,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/JMAirKissDemo",
+					"$(PROJECT_DIR)/JMAirKissDemo/JMAirKiss/Products",
+					"$(PROJECT_DIR)/JMAirKiss/JMAirKiss/",
 				);
 				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/JMAirKiss/JMAirKiss/";
 				INFOPLIST_FILE = JMAirKissDemo/Info.plist;

@@ -115,7 +115,7 @@
     }
    
     [_airKissConnection connectAirKissWithSSID:_ssidStr
-                                       withPSW:_pswStr];
+                                       password:_pswStr];
 }
 
 @end

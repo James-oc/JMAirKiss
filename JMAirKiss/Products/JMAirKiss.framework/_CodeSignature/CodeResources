@@ -14,15 +14,15 @@
 		</data>
 		<key>Headers/JMAirKiss.h</key>
 		<data>
-		WHqT7I/kVShKhl8V0oSymwtjT70=
+		2bSeqtydZ2RBlcvf1YEppI3wNGI=
 		</data>
 		<key>Headers/JMAirKissConnection.h</key>
 		<data>
-		hJObYw1nZv5wvBmFyXkg7mqY+TE=
+		jmRLwaST28Q8wP5pdaz0R/vnYjM=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		KkLRaqq/r318iNzS+Ii3mthOkDY=
+		cX2pVsAwpTv14zDYDSHAGlrvX44=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -30,43 +30,107 @@
 		</data>
 		<key>PrivateHeaders/JMAirKissEncoder.h</key>
 		<data>
-		dQ0KNivjW1QFMCs6fN1/8r3zlTs=
+		GCc8IN80mGqKSKfU1xMYTM9/1h0=
 		</data>
 		<key>PrivateHeaders/JMAirKissEncoder.m</key>
 		<data>
-		dSiiLKPS0TaPKUBlj1t1IwyTGjA=
+		FX2SKJ6g0HK2K+srlMY+O7BiCd0=
+		</data>
+		<key>PrivateHeaders/JMAirKiss_Defines.h</key>
+		<data>
+		M4WEdD49Q0QHG5geWpbx/nIN8i4=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
 		<key>Headers/GCDAsyncUdpSocket.h</key>
-		<data>
-		LH5V3wgNYRH1dy/fNu8r4lu8puI=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			LH5V3wgNYRH1dy/fNu8r4lu8puI=
+			</data>
+			<key>hash2</key>
+			<data>
+			CAMdz3VphGMLZyKBHhxLfGK4d70mHUiuHsG45jRPi+0=
+			</data>
+		</dict>
 		<key>Headers/GCDAsyncUdpSocket.m</key>
-		<data>
-		RGevm1e/4hUrUrR1hXF/jKwO0LM=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			RGevm1e/4hUrUrR1hXF/jKwO0LM=
+			</data>
+			<key>hash2</key>
+			<data>
+			1I9lEyI8VoSK3emI/4V07AhHQTFvqOxfgUTTi6XtWa0=
+			</data>
+		</dict>
 		<key>Headers/JMAirKiss.h</key>
-		<data>
-		WHqT7I/kVShKhl8V0oSymwtjT70=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			2bSeqtydZ2RBlcvf1YEppI3wNGI=
+			</data>
+			<key>hash2</key>
+			<data>
+			YddM9e+NSPe2przimgjZqZswCaBp8xMyU/oZkYY5+HQ=
+			</data>
+		</dict>
 		<key>Headers/JMAirKissConnection.h</key>
-		<data>
-		hJObYw1nZv5wvBmFyXkg7mqY+TE=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			jmRLwaST28Q8wP5pdaz0R/vnYjM=
+			</data>
+			<key>hash2</key>
+			<data>
+			iD1ZS2H/hp+i9+sQzrX5VdObhsaGHBzepnklaZKPpnE=
+			</data>
+		</dict>
 		<key>Modules/module.modulemap</key>
-		<data>
-		rw6S5X3HizexLmWsATtS3dnDf5g=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			rw6S5X3HizexLmWsATtS3dnDf5g=
+			</data>
+			<key>hash2</key>
+			<data>
+			1cRhYq5byTPrktrX47IfIeFBHnYefK1TQodFG4PbZfE=
+			</data>
+		</dict>
 		<key>PrivateHeaders/JMAirKissEncoder.h</key>
-		<data>
-		dQ0KNivjW1QFMCs6fN1/8r3zlTs=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			GCc8IN80mGqKSKfU1xMYTM9/1h0=
+			</data>
+			<key>hash2</key>
+			<data>
+			42aJiLJIHJ+qskjZfaG6APRjsrfPTWZ1/OSEY6UgX8A=
+			</data>
+		</dict>
 		<key>PrivateHeaders/JMAirKissEncoder.m</key>
-		<data>
-		dSiiLKPS0TaPKUBlj1t1IwyTGjA=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			FX2SKJ6g0HK2K+srlMY+O7BiCd0=
+			</data>
+			<key>hash2</key>
+			<data>
+			zvNF/lS+PrryBIuTKcF+nuiO0uPQKr3mpIyRRuj0K9E=
+			</data>
+		</dict>
+		<key>PrivateHeaders/JMAirKiss_Defines.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			M4WEdD49Q0QHG5geWpbx/nIN8i4=
+			</data>
+			<key>hash2</key>
+			<data>
+			MP2rK9edD0FI0wT7B1XACj2a0WVuPWjF6VKGFy6cnw8=
+			</data>
+		</dict>
 	</dict>
 	<key>rules</key>
 	<dict>
