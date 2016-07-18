@@ -1,5 +1,5 @@
 # JMAirKiss
-### iOS App集成AirKiss技术（基于GCDAsyncUdpSocket）
+### iOS App集成AirKiss技术实现智能设备快速联网（基于GCDAsyncUdpSocket）
 ---
 
 ## 设置
