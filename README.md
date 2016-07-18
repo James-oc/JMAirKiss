@@ -16,7 +16,8 @@ _airKissConnection.connectionFailure = ^() {
     // 连接失败操作
  };
 
-[_airKissConnection connectAirKissWithSSID:<＃WiFi_SSID＃> withPSW:<＃WiFI_Password＃>];
+[_airKissConnection connectAirKissWithSSID:<＃WiFi_SSID＃> 
+                                  password:<＃WiFI_Password＃>];
 ```
 ## 通用SDK生成
 ### 切换到JMAirKissAggregate，CMD + B生成通用SDK
